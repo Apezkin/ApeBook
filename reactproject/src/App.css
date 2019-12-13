@@ -1,0 +1,71 @@
+.app {
+  min-height: 100vh;
+  background: darkslategrey;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 3%;
+  background: rgb(82, 82, 82);
+}
+
+.title2 {
+  margin-left: 5%;
+}
+
+.post {
+  border: 2px solid black;
+  background: grey;
+  width: 85%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  padding: 15px;
+}
+
+.button {
+  background: grey;
+  margin-left: 80%;
+  margin-right: 10%;
+  padding: 5px;
+  margin-bottom: 1%;
+}
+
+.button2 {
+  background: grey;
+  padding: 5px;
+  margin-bottom: 1%;
+}
+
+.removePostButton {
+  background: grey;
+  float: right;
+  padding: 5px;
+}
+
+.input {
+  background: rgb(180, 180, 180);
+  margin-bottom: 1%;
+  width: 650px;
+}
+
+.inputUser {
+  background: rgb(180, 180, 180);
+  margin-bottom: 1%;
+  width: 250px;
+}
+
+.input2 {
+  background: rgb(180, 180, 180);
+}
+
+.margin {
+  margin-bottom: 1%;
+}
+
+.content {
+  margin: auto;
+  text-align: left;
+  word-wrap: break-word;
+}
