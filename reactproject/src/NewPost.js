@@ -19,7 +19,7 @@ function NewPost() {
             text: event.target.text.value
         }
         await fetch(
-            "http://localhost:3001/posts", {
+            "http://apebookb-apebook.rahtiapp.fi/posts", {
                 method: "post",
                 headers: {"Content-Type":"application/json"},
                 body: JSON.stringify(bodyData)

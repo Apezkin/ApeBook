@@ -4,7 +4,7 @@ function Post (props) {
 
     const removePost = async () => {
         await fetch (
-            "http://localhost:3001/posts/" + props.id, {
+            "http://apebookb-apebook.rahtiapp.fi/posts" + props.id, {
             method: "DELETE",
             headers: {
                 "Accept":"application/json",

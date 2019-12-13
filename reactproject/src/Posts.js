@@ -13,7 +13,7 @@ function Posts() {
     const fetchItems = async () => {
         let data, jsonData;
         data = await fetch(
-            "http://localhost:3001/posts"
+            "http://apebookb-apebook.rahtiapp.fi/posts"
         );
         
         jsonData = await data.json();
