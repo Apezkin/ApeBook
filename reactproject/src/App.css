@@ -47,17 +47,18 @@
 .input {
   background: rgb(180, 180, 180);
   margin-bottom: 1%;
-  width: 650px;
+  width: 50%;
 }
 
 .inputUser {
   background: rgb(180, 180, 180);
   margin-bottom: 1%;
-  width: 250px;
+  width: 25%;
 }
 
 .input2 {
   background: rgb(180, 180, 180);
+  width: 85%;
 }
 
 .margin {
