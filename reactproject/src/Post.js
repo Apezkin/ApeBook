@@ -3,8 +3,9 @@ import React from "react";
 function Post (props) {
 
     const removePost = async () => {
+        console.log(props.id);
         await fetch (
-            "http://apebookb-apebook.rahtiapp.fi/posts" + props.id, {
+            "http://apebookb-apebook.rahtiapp.fi/posts/" + props.id, {
             method: "DELETE",
             headers: {
                 "Accept":"application/json",
