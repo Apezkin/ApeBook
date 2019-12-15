@@ -5,7 +5,7 @@ import Posts from "./Posts";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
-  return (
+  return ( //Routes for different main page and new post page
     <Router>
       <Switch>
         <Route path="/" exact component={Posts} />

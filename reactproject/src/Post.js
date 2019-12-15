@@ -2,7 +2,7 @@ import React from "react";
 
 function Post (props) {
 
-    const removePost = async () => {
+    const removePost = async () => { //Remove a post from database by post id (unique key created automatically by mongoose)
         console.log(props.id);
         await fetch (
             "http://apebookb-apebook.rahtiapp.fi/posts/" + props.id, {

@@ -10,7 +10,7 @@ function Posts() {
 
     const [posts, setPosts] = useState([]);
 
-    const fetchItems = async () => {
+    const fetchItems = async () => { //Get all posts from the database and create new Post components with post.map
         let data, jsonData;
         data = await fetch(
             "http://apebookb-apebook.rahtiapp.fi/posts"

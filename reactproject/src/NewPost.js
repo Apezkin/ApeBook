@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 
 function NewPost() {
 
-    const [length, setLength] = useState(0);
+    const [length, setLength] = useState(0); //For a visual representation of how long the post text is
     
-    const charCounter = (event => {
+    const charCounter = (event => { //Updating the char counter for post text
         event.preventDefault();
         setLength(event.target.value.length);
         });
 
-    const submitPost = (async event => {
+    const submitPost = (async event => { //Post to database
         event.preventDefault();
         const bodyData = {
             user: event.target.user.value,
@@ -25,7 +25,7 @@ function NewPost() {
                 body: JSON.stringify(bodyData)
             }
         );
-        window.location.href="/posts"
+        window.location.href="/posts" //Go back to mainpage after posting
     });
 
     return(
